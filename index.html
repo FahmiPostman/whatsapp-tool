@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="generator.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="wa-crx" id="wa-crx">
+        <h1 class="Judul">Whatsapp Link Generator</h1>
+        <p class="Sub-Judul">Buat link whatsapp kini jadi lebih mudah</p>
+        <div class="wa-crx__row">
+            <label for="wa-crx-number" class="wa-crx__label">Nomor WhatsApp</label>
+            <div class="wa-crx__field">
+            <input id="wa-crx-number" class="wa-crx__field__input" name="phone" type="tel" placeholder="+6281234567891">
+            <div id="wa-crx-number-error" class="wa-crx__field__error">
+                <span class="wa-crx__field__error__text">Nomor tidak valid</span>
+                <div class="wa-crx__field__error__arrow"></div>
+            </div>
+            </div>
+        </div>
+        <div class="wa-crx__row">
+            <label for="wa-crx-message" class="wa-crx__label">Pesan (Opsional)</label>
+            <div class="wa-crx__field">
+            <textarea id="wa-crx-message" class="wa-crx__field__input wa-crx__field__input--textarea" name="message" placeholder="Masukkan pesan disini (bisa emoji)"></textarea>
+            </div>
+        </div>
+        <div class="wa-crx__row wa-crx__row--action">
+            <button id="wa-crx-copy" role="button" class="wa-crx__button">
+            Salin Link
+            </button>
+            <button id="wa-crx-visit" role="button" class="wa-crx__button wa-crx__button--visit">
+            Kunjungi Link
+            </button>
+        </div>
+        <div class="wa-crx__row">
+            <label for="wa-crx-generated" class="wa-crx__label">WhatsApp Link</label>
+            <div class="wa-crx__field">
+            <textarea id="wa-crx-generated" class="wa-crx__field__input wa-crx__field__input--textarea" name="generated" readonly=""></textarea>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
