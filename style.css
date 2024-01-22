@@ -1,18 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 p {
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 400;
+    color: #fff;
 }
 
 h1 {
-    font-size: 25px;
-    font-weight: 800;
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: #fff;
 
 }
 
+.Judul {
+    color: #ffffff;
+}
+
 body {
-    font-family: 'Poppins', sans-serif;
+    background-image: url('2224368.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    font-family: 'Work Sans', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,8 +48,10 @@ body {
 }
 
 .wa-crx__label {
-    margin-bottom: 1px;
-    display: block
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    color: #fff;
 }
 
 .wa-crx__field {
@@ -50,7 +63,7 @@ body {
     width: calc(100% - 24px); /* Sesuaikan lebar dengan parent dan kurangi margin */
     border: 2px solid #eee;
     background-color: #fff;
-    border-radius: 8px;
+    border-radius: 6px;
     padding: 8px 10px;
     font-family: inherit;
     font-size: inherit;
@@ -104,10 +117,12 @@ body {
 .wa-crx__button {
     width: calc(50% - 10px);
     padding: 8px 8px;
-    background: #024FAA;
+    background: #3FB950;
     color: #fff;
     font-weight: 500;
-    border: thin solid rgba(0, 0, 0, 0);
+    border: solid;
+    border-width: 1px;
+    border-color: #3FB950;
     cursor: pointer;
     font-family: inherit;
     font-size: inherit;
@@ -131,9 +146,9 @@ body {
 }
 
 .wa-crx__button--visit:hover {
-    background: #024FAA;
+    background: #3FB950;
     color: #fff;
-    border-color: #024FAA;
+    border-color: #3FB950;
 }
 
 .wa-crx__button--visit,
